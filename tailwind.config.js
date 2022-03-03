@@ -18,15 +18,9 @@ module.exports = {
 
         },
         fontFamily: {
-          roboto: "'roboto', sans-serif",
           inter: "'inter', sans-serif",
-          akaya: "'Akaya Telivigala', cursive ",
-          poppins: "'Poppins', serif",
-          bree: "'Bree Serif', cursive", 
-          russo: "'Russo One', sans-serif", 
-          lato: "'Lato', sans-serif", 
-          grotesk: "'Grotesk Light', cursive", 
-          minion: "'Minion Pro', Cursive", 
+          grotesk: "'Grotesk Light', sans-serif", 
+          minion: "'Minion Pro', serif", 
         }
     },
   },
