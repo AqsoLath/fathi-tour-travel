@@ -531,7 +531,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .subjudul{
   margin-bottom: 0.25rem;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Minion Pro', Cursive;
   font-size: 1.875rem;
   line-height: 2.25rem;
   font-weight: 700;
@@ -539,10 +539,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(92 0 153 / var(--tw-text-opacity));
 }
 
+@media (min-width: 1024px){
+  .subjudul{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
 .subsubjudul{
   margin-bottom: 0.25rem;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Minion Pro', Cursive;
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 600;
@@ -943,16 +950,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: center;
 }
 
-.font-poppins{
-  font-family: 'Poppins', serif;
+.font-grotesk{
+  font-family: 'Grotesk Light', cursive;
 }
 
 .font-inter{
   font-family: 'inter', sans-serif;
-}
-
-.font-grotesk{
-  font-family: 'Grotesk Light', cursive;
 }
 
 .text-4xl{
