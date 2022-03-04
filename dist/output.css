@@ -438,7 +438,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   font-weight: 400;
 
-  src: url(fonts/grotesk.ttf);
+  src: url(../fonts/grotesk.ttf);
 }
 
 @font-face {
@@ -446,7 +446,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   font-weight: 700;
 
-  src: url(fonts/MinionPro-Bold.otf);
+  src: url(../fonts/MinionPro-Bold.otf);
 }
 
 *, ::before, ::after{
@@ -644,6 +644,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 0.25rem;
 }
 
+.my-auto{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .my-1{
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
@@ -652,11 +657,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.my-auto{
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .ml-auto{
@@ -848,7 +848,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-umrah{
-  background-image: url('image/galeriumrah2.jpeg');
+  background-image: url('../image/galeriumrah2.jpeg');
 }
 
 .from-ungu2{

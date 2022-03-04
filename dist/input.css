@@ -35,11 +35,11 @@
   @font-face {
     font-family: Grotesk Light;
     font-weight: 400;
-    src: url(../fonts/grotesk.ttf);
+    src: url(fonts/grotesk.ttf);
   }
   @font-face {
     font-family: Minion Pro;
     font-weight: 700;
-    src: url(../fonts/MinionPro-Bold.otf);
+    src: url(fonts/MinionPro-Bold.otf);
   }
 }

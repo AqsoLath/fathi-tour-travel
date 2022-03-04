@@ -3,8 +3,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'img-custom': "url('../image/hero3.jpeg')",
-        'umrah': "url('../image/galeriumrah2.jpeg')",
+        'img-custom': "url('image/hero3.jpeg')",
+        'umrah': "url('image/galeriumrah2.jpeg')",
         },
       colors: {
             'ungu1': "#3d0066",
