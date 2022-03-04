@@ -531,7 +531,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .subjudul{
   margin-bottom: 0.25rem;
   text-align: center;
-  font-family: 'Minion Pro', Cursive;
+  font-family: 'Minion Pro', serif;
   font-size: 1.875rem;
   line-height: 2.25rem;
   font-weight: 700;
@@ -549,7 +549,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .subsubjudul{
   margin-bottom: 0.25rem;
   text-align: center;
-  font-family: 'Minion Pro', Cursive;
+  font-family: 'Minion Pro', serif;
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 600;
@@ -873,6 +873,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-to: #9a01ce;
 }
 
+.to-green-800{
+  --tw-gradient-to: #166534;
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -951,7 +955,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .font-grotesk{
-  font-family: 'Grotesk Light', cursive;
+  font-family: 'Grotesk Light', sans-serif;
 }
 
 .font-inter{
